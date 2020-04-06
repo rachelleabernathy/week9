@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+[v-cloak] {
+  display: none;
+}
+* {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 16px;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-size: 24px;
+}
+body {
+  background-color: darkslategray
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.collectionWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.collectionRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+  border-bottom: 1px solid #111;
+}
+.collectionRow.odd {
+  background-color: lightcyan;
+}
+.collectionRow.header {
+  background-color: lightcyan;
+}
+.collectionRow.owned {
+  color: rgb(255, 123, 0);
+  font-weight: 600;
+}
+
+.cell {
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+}
+.console-image img {
+  display: block;
+  max-width: 160px;
+}
+.new-console-form {
+  margin: 20px 0;
+}
+.new-console-form fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.new-console-form div {
+  margin: 10 px 0;
+  width: 120px;
+}
+
+.new-console-form div label {
+  max-width: 120px;
+}
+
+.new-console-form input {
+  max-width: 160px;
+  display: block;
+}
+
+button {
+  border-radius: 10px;
+  size: 160px;
+  background-color: pink;
+  margin: 20px 0;
+}
